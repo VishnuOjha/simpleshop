@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/simpleshop/static/css/main.f8079458.chunk.css",
+    "main.js": "/simpleshop/static/js/main.7c5fcab2.chunk.js",
+    "main.js.map": "/simpleshop/static/js/main.7c5fcab2.chunk.js.map",
+    "runtime-main.js": "/simpleshop/static/js/runtime-main.e451b071.js",
+    "runtime-main.js.map": "/simpleshop/static/js/runtime-main.e451b071.js.map",
+    "static/css/2.c0897e43.chunk.css": "/simpleshop/static/css/2.c0897e43.chunk.css",
+    "static/js/2.6c3ca246.chunk.js": "/simpleshop/static/js/2.6c3ca246.chunk.js",
+    "static/js/2.6c3ca246.chunk.js.map": "/simpleshop/static/js/2.6c3ca246.chunk.js.map",
+    "index.html": "/simpleshop/index.html",
+    "static/css/2.c0897e43.chunk.css.map": "/simpleshop/static/css/2.c0897e43.chunk.css.map",
+    "static/css/main.f8079458.chunk.css.map": "/simpleshop/static/css/main.f8079458.chunk.css.map",
+    "static/js/2.6c3ca246.chunk.js.LICENSE.txt": "/simpleshop/static/js/2.6c3ca246.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e451b071.js",
+    "static/css/2.c0897e43.chunk.css",
+    "static/js/2.6c3ca246.chunk.js",
+    "static/css/main.f8079458.chunk.css",
+    "static/js/main.7c5fcab2.chunk.js"
+  ]
+}
