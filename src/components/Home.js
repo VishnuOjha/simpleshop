@@ -2,13 +2,15 @@ import React from "react";
 import "./home.css";
 
 const Home = ({ products, handleAddToCart }) => {
+
+
   return (
     <>
       <div className="product_info"><h1>Mobiles</h1></div>
         
       <div className="container">
-    
-        {products.map((items) => (
+
+        {products?.map((items) => (
           <div className="card">
             <div>
               <img

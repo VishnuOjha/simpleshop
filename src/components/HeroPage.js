@@ -1,5 +1,11 @@
 import React from "react";
 import "./css/heropage.css";
+import MobilePng from "../images/mobile.svg"
+import samsung from "../images/samsung.jpg"
+import oneplus9 from "../images/oneplus9.jpg"
+import google from "../images/google.png"
+import iphone11 from "../images/iPhone11.jpg"
+import oppo from "../images/Oppo.jpg"
 
 const HeroPage = () => {
   return (
@@ -13,7 +19,7 @@ const HeroPage = () => {
             <p className="info-2">Here you will Find the Best Mobile Phones </p>
           </div>
           <div className="hero-right">
-            <img src="./images/mobile.svg" alt="mobileimage" />
+            <img src={MobilePng} alt="mobileimage" />
           </div>
         </div>
         <div className="products">
@@ -21,7 +27,7 @@ const HeroPage = () => {
           <div className="product-container">
             <div className="cards">
               <div className="card-image">
-                <img className="product-image" src="/images/samsung.jpg" alt="" />
+                <img className="product-image" src={samsung} alt="" />
               </div>
               <div className="card-title">
                 <p>Samsung</p>
@@ -29,7 +35,7 @@ const HeroPage = () => {
             </div>
             <div className="cards">
               <div className="card-image">
-                <img className="product-image" src="/images/iphone11.jpg" alt="" />
+                <img className="product-image" src={iphone11} alt="" />
               </div>
               <div className="card-title">
                 <p>IPhone</p>
@@ -37,7 +43,7 @@ const HeroPage = () => {
             </div>
             <div className="cards">
               <div className="card-image">
-                <img className="product-image" src="/images/google.png" alt="" />
+                <img className="product-image" src={google} alt="" />
               </div>
               <div className="card-title">
                 <p>Google</p>
@@ -45,7 +51,7 @@ const HeroPage = () => {
             </div>
             <div className="cards">
               <div className="card-image">
-                <img className="product-image" src="/images/oneplus9.jpg" alt="" />
+                <img className="product-image" src={oneplus9} alt="" />
               </div>
               <div className="card-title">
                 <p>One Plus</p>
@@ -53,7 +59,7 @@ const HeroPage = () => {
             </div>
             <div className="cards">
               <div className="card-image">
-                <img className="product-image" src="/images/Oppo.jpg" alt="" />
+                <img className="product-image" src={oppo} alt="" />
               </div>
               <div className="card-title">
                 <p>Oppo</p>
